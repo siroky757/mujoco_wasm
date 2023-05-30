@@ -70,3 +70,5 @@ Typescript definitions are available.
 So far, most mjModel and mjData state variables and functions (that do not require custom structs) are exposed.
 
 At some point, I'd like to de-opinionate the binding and make it match the original MuJoCo API better.
+
+## This is me
