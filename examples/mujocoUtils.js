@@ -29,7 +29,8 @@ export function setupGUI(parentContext) {
   parentContext.gui.add(parentContext.params, 'scene', {
     "Humanoid": "humanoid.xml", "Cassie": "agility_cassie/scene.xml",
     "Hammock": "hammock.xml", "Balloons": "balloons.xml", "Hand": "shadow_hand/scene_right.xml",
-    "Flag": "flag.xml", "Mug": "mug.xml", "Tendon": "model_with_tendon.xml"
+    "Flag": "flag.xml", "Mug": "mug.xml", "Tendon": "model_with_tendon.xml",
+    "PandaWipe": "robosuite/models/assets/demonstrations/wipe/panda/models/model_1.xml"
   }).name('Example Scene').onChange(reload);
 
   // Add a help menu.
@@ -557,9 +558,34 @@ export async function downloadExampleScenesFolder(mujoco) {
     "hammock.xml",
     "humanoid.xml",
     "humanoid_body.xml",
+    "model_with_tendon.xml",
     "mug.obj",
     "mug.png",
     "mug.xml",
+    "robosuite/models/assets/arenas/table_arena.xml",
+    "robosuite/models/assets/demonstrations/wipe/panda/models/model_1.xml",
+    "robosuite/models/assets/robots/panda/meshes/link0.stl",
+    "robosuite/models/assets/robots/panda/meshes/link0_vis.stl",
+    "robosuite/models/assets/robots/panda/meshes/link1.stl",
+    "robosuite/models/assets/robots/panda/meshes/link1_vis.stl",
+    "robosuite/models/assets/robots/panda/meshes/link2.stl",
+    "robosuite/models/assets/robots/panda/meshes/link2_vis.stl",
+    "robosuite/models/assets/robots/panda/meshes/link3.stl",
+    "robosuite/models/assets/robots/panda/meshes/link3_vis.stl",
+    "robosuite/models/assets/robots/panda/meshes/link4.stl",
+    "robosuite/models/assets/robots/panda/meshes/link4_vis.stl",
+    "robosuite/models/assets/robots/panda/meshes/link5.stl",
+    "robosuite/models/assets/robots/panda/meshes/link5_vis.stl",
+    "robosuite/models/assets/robots/panda/meshes/link6.stl",
+    "robosuite/models/assets/robots/panda/meshes/link6_vis.stl",
+    "robosuite/models/assets/robots/panda/meshes/link7.stl",
+    "robosuite/models/assets/robots/panda/meshes/link7_vis.stl",
+    "robosuite/models/assets/robots/panda/meshes/pedestal.stl",
+    "robosuite/models/assets/textures/ceramic.png",
+    "robosuite/models/assets/textures/cream-plaster.png",
+    "robosuite/models/assets/textures/dirt.png",
+    "robosuite/models/assets/textures/steel-brushed.png",
+    "robosuite/models/assets/textures/wood-tiles.png",
     "scene.xml",
     "shadow_hand/assets/f_distal_pst.obj",
     "shadow_hand/assets/f_knuckle.obj",
@@ -581,7 +607,6 @@ export async function downloadExampleScenesFolder(mujoco) {
     "shadow_hand/scene_right.xml",
     "simple.xml",
     "slider_crank.xml",
-    "model_with_tendon.xml",
   ];
 
   let requests = allFiles.map((url) => fetch("./examples/scenes/" + url));
