@@ -5,38 +5,38 @@
 
   <asset>
   <texture builtin="gradient" height="256" rgb1=".9 .9 1." rgb2=".2 .3 .4" type="skybox" width="256" />
-    <texture file="/working/robosuite/models/assets/arenas/../textures/wood-tiles.png" name="texplane" type="2d" />
+    <texture file="/examples/scenes/robosuite/models/assets/arenas/../textures/wood-tiles.png" name="texplane" type="2d" />
     <material name="floorplane" reflectance="0.01" shininess="0.0" specular="0.0" texrepeat="2 2" texture="texplane" texuniform="true" />
     
-    <texture file="/working/robosuite/models/assets/arenas/../textures/ceramic.png" name="tex-ceramic" type="cube" />
+    <texture file="/examples/scenes/robosuite/models/assets/arenas/../textures/ceramic.png" name="tex-ceramic" type="cube" />
     <material name="table_ceramic" reflectance="0.0" shininess="0.0" specular="0.2" texrepeat="1 1" texture="tex-ceramic" />
     
-    <texture file="/working/robosuite/models/assets/arenas/../textures/steel-brushed.png" name="tex-steel-brushed" type="cube" />
+    <texture file="/examples/scenes/robosuite/models/assets/arenas/../textures/steel-brushed.png" name="tex-steel-brushed" type="cube" />
     <material name="table_legs_metal" reflectance="0.8" shininess="0.8" texrepeat="1 1" texture="tex-steel-brushed" />
     
-    <texture file="/working/robosuite/models/assets/arenas/../textures/cream-plaster.png" name="tex-cream-plaster" type="2d" />
+    <texture file="/examples/scenes/robosuite/models/assets/arenas/../textures/cream-plaster.png" name="tex-cream-plaster" type="2d" />
     <material name="walls_mat" reflectance="0.0" shininess="0.1" specular="0.1" texrepeat="3 3" texture="tex-cream-plaster" texuniform="true" />
     
     <texture builtin="flat" height="512" name="textable" rgb1="0.5 0.5 0.5" rgb2="0.5 0.5 0.5" width="512" />
     <material name="table_mat" texture="textable" />
 
-  <texture file="/working/robosuite/models/assets/textures/dirt.png" name="dirt" type="cube" /><material name="dirt_mat" shininess="0.0" specular="0.0" texrepeat="1 1" texture="dirt" /><mesh file="/working/robosuite/models/assets/robots/panda/meshes/link0.stl" name="robot0_link0" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link1.stl" name="robot0_link1" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link2.stl" name="robot0_link2" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link3.stl" name="robot0_link3" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link4.stl" name="robot0_link4" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link5.stl" name="robot0_link5" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link6.stl" name="robot0_link6" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link7.stl" name="robot0_link7" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link0_vis.stl" name="robot0_link0_vis" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link1_vis.stl" name="robot0_link1_vis" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link2_vis.stl" name="robot0_link2_vis" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link3_vis.stl" name="robot0_link3_vis" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link4_vis.stl" name="robot0_link4_vis" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link5_vis.stl" name="robot0_link5_vis" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link6_vis.stl" name="robot0_link6_vis" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/link7_vis.stl" name="robot0_link7_vis" />
-        <mesh file="/working/robosuite/models/assets/robots/panda/meshes/pedestal.stl" name="robot0_pedestal" />
+  <texture file="/examples/scenes/robosuite/models/assets/textures/dirt.png" name="dirt" type="cube" /><material name="dirt_mat" shininess="0.0" specular="0.0" texrepeat="1 1" texture="dirt" /><mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link0.stl" name="robot0_link0" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link1.stl" name="robot0_link1" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link2.stl" name="robot0_link2" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link3.stl" name="robot0_link3" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link4.stl" name="robot0_link4" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link5.stl" name="robot0_link5" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link6.stl" name="robot0_link6" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link7.stl" name="robot0_link7" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link0_vis.stl" name="robot0_link0_vis" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link1_vis.stl" name="robot0_link1_vis" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link2_vis.stl" name="robot0_link2_vis" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link3_vis.stl" name="robot0_link3_vis" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link4_vis.stl" name="robot0_link4_vis" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link5_vis.stl" name="robot0_link5_vis" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link6_vis.stl" name="robot0_link6_vis" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/link7_vis.stl" name="robot0_link7_vis" />
+        <mesh file="/examples/scenes/robosuite/models/assets/robots/panda/meshes/pedestal.stl" name="robot0_pedestal" />
 
         
         <texture builtin="flat" height="100" name="robot0_pedestal_tex" rgb1="0.2 0.2 0.2" rgb2="0.2 0.2 0.2" type="cube" width="100" />
