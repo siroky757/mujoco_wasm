@@ -49,6 +49,8 @@
   "robosuite/models/assets/textures/ceramic.png",
   "robosuite/models/assets/textures/cream-plaster.png",
   "robosuite/models/assets/textures/dirt.png",
+  "robosuite/models/assets/textures/light-gray-floor-tile.png",
+  "robosuite/models/assets/textures/light-gray-plaster.png",
   "robosuite/models/assets/textures/steel-brushed.png",
   "robosuite/models/assets/textures/wood-tiles.png",
   "scene.xml",
