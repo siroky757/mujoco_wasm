@@ -1,6 +1,6 @@
 <mujoco model="base">
   <compiler angle="radian" meshdir="meshes/" />
-  <option cone="elliptic" impratio="20" />
+  <option timestep="0.002" cone="elliptic" impratio="20" />
   <size nconmax="5000" njmax="5000" />
 
   <asset>
