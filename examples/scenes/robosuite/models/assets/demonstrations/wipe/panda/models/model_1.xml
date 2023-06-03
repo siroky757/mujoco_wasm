@@ -1,4 +1,4 @@
-<mujoco model="base">
+<mujoco model="model 1">
   <compiler angle="radian" />
   <option timestep="0.002" cone="elliptic" impratio="20" />
   <size nconmax="5000" njmax="5000" />
