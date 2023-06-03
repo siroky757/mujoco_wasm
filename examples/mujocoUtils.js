@@ -562,7 +562,6 @@ export async function downloadExampleScenesFolder(mujoco) {
     "mug.obj",
     "mug.png",
     "mug.xml",
-    "robosuite/models/assets/arenas/table_arena.xml",
     "robosuite/models/assets/demonstrations/wipe/panda/models/model_1.xml",
     "robosuite/models/assets/robots/panda/meshes/link0.stl",
     "robosuite/models/assets/robots/panda/meshes/link0_vis.stl",

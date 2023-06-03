@@ -1,20 +1,20 @@
-<mujoco model="model 1">
+<mujoco model="base">
   <compiler angle="radian" />
   <option timestep="0.002" cone="elliptic" impratio="20" />
   <size nconmax="5000" njmax="5000" />
 
   <asset>
   <texture builtin="gradient" height="256" rgb1=".9 .9 1." rgb2=".2 .3 .4" type="skybox" width="256" />
-    <texture file="../../../../arenas/../textures/wood-tiles.png" name="texplane" type="2d" />
+    <texture file="../../../../textures/wood-tiles.png" name="texplane" type="2d" />
     <material name="floorplane" reflectance="0.01" shininess="0.0" specular="0.0" texrepeat="2 2" texture="texplane" texuniform="true" />
     
-    <texture file="../../../../arenas/../textures/ceramic.png" name="tex-ceramic" type="cube" />
+    <texture file="../../../../textures/ceramic.png" name="tex-ceramic" type="cube" />
     <material name="table_ceramic" reflectance="0.0" shininess="0.0" specular="0.2" texrepeat="1 1" texture="tex-ceramic" />
     
-    <texture file="../../../../arenas/../textures/steel-brushed.png" name="tex-steel-brushed" type="cube" />
+    <texture file="../../../../textures/steel-brushed.png" name="tex-steel-brushed" type="cube" />
     <material name="table_legs_metal" reflectance="0.8" shininess="0.8" texrepeat="1 1" texture="tex-steel-brushed" />
     
-    <texture file="../../../../arenas/../textures/cream-plaster.png" name="tex-cream-plaster" type="2d" />
+    <texture file="../../../../textures/cream-plaster.png" name="tex-cream-plaster" type="2d" />
     <material name="walls_mat" reflectance="0.0" shininess="0.1" specular="0.1" texrepeat="3 3" texture="tex-cream-plaster" texuniform="true" />
     
     <texture builtin="flat" height="512" name="textable" rgb1="0.5 0.5 0.5" rgb2="0.5 0.5 0.5" width="512" />
