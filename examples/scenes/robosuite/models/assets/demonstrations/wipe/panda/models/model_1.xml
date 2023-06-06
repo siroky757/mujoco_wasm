@@ -1,5 +1,5 @@
 <mujoco model="base">
-  <compiler angle="radian" />
+  <compiler inertiafromgeom="auto" angle="radian" balanceinertia="true" boundmass="0.001" boundinertia=".0001" />
   <option timestep="0.002" cone="elliptic" impratio="20" />
   <size nconmax="5000" njmax="5000" />
 
