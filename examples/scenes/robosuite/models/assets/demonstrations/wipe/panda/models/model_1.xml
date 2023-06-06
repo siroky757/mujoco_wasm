@@ -1,7 +1,7 @@
 <mujoco model="base">
-  <compiler autolimits="true" angle="radian" />
+  <compiler angle="radian" />
   <option timestep="0.002" cone="elliptic" impratio="20" />
-  <size nconmax="5000" njmax="5000" />
+  
 
   <asset>
   <texture builtin="gradient" height="256" rgb1=".9 .9 1." rgb2=".2 .3 .4" type="skybox" width="256" />
