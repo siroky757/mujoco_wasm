@@ -48,10 +48,10 @@
         <material name="robot0_torso_mat" texture="robot0_torso_tex" />
         <material name="robot0_arm_mat" texture="robot0_arm_tex" />
     </asset>
-
+ <!---
   <visual>
     <map znear="0.001" />
-  </visual>
+  </visual>-->
 
   <actuator>
   <motor ctrllimited="true" ctrlrange="-80.0 80.0" joint="robot0_joint1" name="robot0_torq_j1" />
