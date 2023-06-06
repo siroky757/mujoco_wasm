@@ -30,7 +30,7 @@ export function setupGUI(parentContext) {
     "Humanoid": "humanoid.xml", "Cassie": "agility_cassie/scene.xml",
     "Hammock": "hammock.xml", "Balloons": "balloons.xml", "Hand": "shadow_hand/scene_right.xml",
     "Flag": "flag.xml", "Mug": "mug.xml", "Tendon": "model_with_tendon.xml",
-    "PandaWipe": "robosuite/models/assets/demonstrations/wipe/panda/models/model_1.xml"
+    "base": "robosuite/models/assets/demonstrations/wipe/panda/models/model_1.xml"
   }).name('Example Scene').onChange(reload);
 
   // Add a help menu.
