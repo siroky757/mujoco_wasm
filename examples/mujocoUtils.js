@@ -30,8 +30,7 @@ export function setupGUI(parentContext) {
     "base": "wipe_panda/wipe_panda_model_1.xml",
     "Humanoid": "humanoid.xml", "Cassie": "agility_cassie/scene.xml",
     "Hammock": "hammock.xml", "Balloons": "balloons.xml", "Hand": "shadow_hand/scene_right.xml",
-    "Flag": "flag.xml", "Mug": "mug.xml", "Tendon": "model_with_tendon.xml"
-    
+    "Flag": "flag.xml", "Mug": "mug.xml", "Tendon": "model_with_tendon.xml",
   }).name('Example Scene').onChange(reload);
 
   // Add a help menu.
