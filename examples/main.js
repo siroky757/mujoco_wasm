@@ -22,9 +22,9 @@ export class MuJoCoDemo {
     this.mujoco = mujoco;
 
     // Load in the state from XML
-    //this.model      = new mujoco.Model("/working/" + initialScene);
-    //this.state      = new mujoco.State(this.model);
-    //this.simulation = new mujoco.Simulation(this.model, this.state);
+    this.model      = new mujoco.Model("/working/" + initialScene);
+    this.state      = new mujoco.State(this.model);
+    this.simulation = new mujoco.Simulation(this.model, this.state);
 
     // Define Random State Variables
     this.params = { scene: initialScene, paused: false, help: false, ctrlnoiserate: 0.0, ctrlnoisestd: 0.0, keyframeNumber: 0 };
