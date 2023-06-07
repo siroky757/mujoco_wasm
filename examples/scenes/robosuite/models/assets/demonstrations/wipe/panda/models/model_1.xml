@@ -51,6 +51,8 @@
  
   <visual>
     <map znear="0.001" />
+    <rgba haze="0.15 0.25 0.35 1"/>
+    <global offwidth="2560" offheight="1440" elevation="-20" azimuth="120"/>
   </visual>
 
   <actuator>
