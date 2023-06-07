@@ -67,6 +67,10 @@
         <motor ctrllimited="true" ctrlrange="-12.0 12.0" joint="robot0_joint7" name="robot0_torq_j7" />
     </actuator>
 
+    <default>
+       <joint damping=".1"/>
+    </default>
+
     <worldbody>
         <geom condim="3" material="floorplane" name="floor" pos="0.0 0.0 0.0" size="3 3 .125" type="plane" />
         
